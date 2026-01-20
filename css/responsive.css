@@ -1,0 +1,323 @@
+/* Mobile Portrait View */
+@media screen and (max-width:767px) {
+*{box-sizing:border-box;}
+.left, .right, .copyright-txt, .designby{ float:none;}
+.container { width:auto; padding:0 20px;}
+.wrap_one{width:auto; text-align:center;}
+.header { width:100%; padding:0;}
+.header .header-inner{ width:100%; padding:0 20px;}
+.header .header-inner .logo{ float:none; text-align:center; margin:0 auto; padding:8px 15px; position:relative; width: auto; display:table;}
+span.logostyle, span.logostyle a{ background:transparent !important; padding:0 !important;}
+section#home_slider{ margin-top:0;}
+.headerright, .ph-email-colmn, .appoint-colmn{ float:none; width:auto !important; margin-right:0;}
+
+.headerright{ text-align:center;}
+.headerright .phoneno{ width:160px; margin:auto;}
+.headerright .emailicon{  width:210px; margin:10px auto;}
+
+
+.headerright .column-1, .headerright .column-2, .headerright .column-3{ width:70% !important; margin:0 auto 10px auto;}
+#wrapfirst img{ float:none; margin:0 0 15px; width:100%;}
+/*coloumn css*/
+.listpages{ float:none; width:100%; margin:0 0 8%; min-height:231px;}
+.listpages h2{ font-size:24px; margin-bottom:5%; padding-bottom:5%;}
+/*sidebar css*/
+#sidebar{ width:100%; float:none;}
+#wrapfirst h1{ float:none; border:none; margin:0 0 20px 0; padding:0;}
+
+/* --------- Pages ------- */
+.content-area{ width:auto; margin:0; padding:50px 20px;}
+.site-main{ width:auto; margin:0; padding:0; float:none;}
+h2.section-title{ font-size:22px; line-height:26px;}
+/*slider css*/
+#slider{ top:0; margin:0;}
+.nivo-directionNav a{ top:39% !important;}
+.nivo-caption{ display:none !important;}
+/*footer css */
+.copyright-wrapper{ text-align:center;}
+.cols-3{ width:100% !important; display:block; margin-right:0; margin-bottom:5%; min-height:inherit; border-right: none;}
+/*custom css*/
+h2.section_title{ text-align:center;}
+/*front blog post*/
+.BlogPosts{ float:none; width:auto; margin:0 0 10% 0;}
+.wpcf7 input[type="text"], .wpcf7 input[type="tel"], .wpcf7 input[type="email"], .wpcf7 textarea{ width:100%;}
+.section_title{ font-size:40px; line-height:35px;}
+}
+
+/* Mobile Landscape View */
+@media screen and (min-width: 480px) and (max-width: 767px){
+.slide_info{ padding:0;}
+.slide_info h2{ font-size:20px !important; padding:0 !important; margin-bottom:10px !important; line-height:30px; text-shadow:1px 0 0 #333;}
+.slide_info p{ padding:5px 0 !important;  font-size:13px !important; display:none;}
+}
+
+/* Tablet View */
+@media screen and (max-width:1169px) and (min-width:768px) { 
+*{box-sizing:border-box;}
+.social-icons a{ box-sizing:content-box; margin-bottom:5px; }
+.container { width:auto; padding:0 20px;}
+.header .header-inner{ width:100%; padding:0 20px;}
+.logo h1{ font-size:20px;}
+.headerright{ width:67%;}
+.headerright .column-1, .headerright .column-2, .headerright .column-3{ width:35%; margin-right:7px;}
+/*slider css*/
+.nivo-caption{ width:60%; top:30%; }
+.slide_info h2{ font-size:40px ;  margin-bottom:10px ; line-height:40px;}
+.slide_info p{ font-size:14px ; margin-bottom:10px ; line-height:18px; }
+.content-area{ width:auto; margin:0; padding:50px 20px;}
+#sidebar{ width:30%;}
+.site-main{ width:65%;}
+.cols-3 h5{ font-size:22px;}
+.blog_lists img{ width:100%;}
+#wrapfirst img{ float:right; margin:0 0 0 20px; width:auto;}
+}
+
+@media screen and (max-width:1169px) and (min-width:981px) { 
+html{overflow-x:hidden; }
+.header .header-inner{ padding:0 20px;}
+}
+
+@media screen and (max-width: 980px){
+.toggleMenu{display: block;}
+.header .header-inner .nav{float:none; margin:0; position:relative; overflow-x:hidden; background-color:#fff; border-radius:0; top:0; border-bottom:none; }
+.header .header-inner .nav ul{color:#000; width:100% !important; float:none !important; margin:0; padding:0;}
+.header .header-inner .nav ul li{border-top:1px #cccccc solid; display:block; float:none; text-align:left;}
+.header .header-inner .nav ul li a{padding:5px 10px !important; display:block; color:#000; border-right:none;}
+.header .header-inner .nav ul li a:hover{color:#ffffff;}
+.header .header-inner .nav ul.sub-menu{ /*margin-left:10px;*/}
+.header .header-inner .nav ul li ul, .header .header-inner .nav ul li ul ul{ display:block !important;}
+.header .header-inner .nav ul li ul li a:before{content:"\00BB \00a0";}
+.header .header-inner .nav ul li ul li a{padding-left:20px !important; }
+.header .header-inner .nav ul li ul li a{ border:none;}
+.header .header-inner .nav ul li ul li ul li a{padding-left:30px !important;}
+.header .header-inner .nav ul li ul li ul li ul li a{padding-left:40px !important;}
+.header .header-inner .nav ul li:hover > ul{ background:none !important; box-shadow:none;}
+
+
+.header .header-inner .nav ul li:hover > ul{ background: transparent !important; width:auto !important; display:block; position: relative !important; left:0; right:0; top:0; padding:0;}
+.header .header-inner .nav ul li:hover ul li ul, .header .header-inner .nav ul li:hover ul li:hover > ul, .header .header-inner .nav ul li:hover ul li:hover > ul li ul{  background: transparent !important; display:block; position:relative !important;  right:0; left:0; top:0;}
+.header .header-inner .nav ul li:hover ul li:hover ul, .header .header-inner .nav ul li:hover ul li:hover ul li:hover ul{ left:0 !important;}
+}
+
+/* START Make the cart table responsive */
+@media screen and (max-width: 600px) {
+
+/* Force table to not be like tables anymore */
+.woocommerce-page table.shop_table,
+.woocommerce-page table.shop_table thead,
+.woocommerce-page table.shop_table tbody,
+.woocommerce-page table.shop_table th,
+.woocommerce-page table.shop_table td,
+.woocommerce-page table.shop_table tr {
+    display: block;
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+.woocommerce-page table.shop_table thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+.woocommerce-page table.shop_table tr {
+    /*border: 1px solid #d2d3d3; */
+}
+
+.woocommerce-page table.shop_table td {
+    /* Behave like a "row" */
+    border: 1px solid #d2d3d3;
+    position: relative;
+    padding-left: 30% !important;
+}
+
+.woocommerce-page table.shop_table {
+    border: none;
+	width:100%;
+}
+
+.woocommerce-page table.shop_table td.product-spacer {
+    border-color: #FFF;
+    height: 10px;
+}
+
+.woocommerce-page table.shop_table td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 25%;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+
+/*
+Label the data
+*/
+.woocommerce-page table.shop_table td.product-remove:before {
+    content: "DELETE";
+}
+
+.woocommerce-page table.shop_table td.product-thumbnail:before {
+    content: "IMAGE";
+}
+
+.woocommerce-page table.shop_table td.product-name:before {
+    content: "PRODUCT";
+}
+
+.woocommerce-page table.shop_table td.product-price:before {
+    content: "PRICE";
+}
+
+.woocommerce-page table.shop_table td.product-quantity:before {
+    content: "QUANTITY";
+}
+
+.woocommerce-page table.shop_table td.product-subtotal:before {
+    content: "SUBTOTAL";
+}
+
+.woocommerce-page table.shop_table td.product-total:before {
+    content: "TOTAL";
+}
+
+.woocommerce .quantity,
+.woocommerce #content .quantity,
+.woocommerce-page .quantity,
+.woocommerce-page #content .quantity {
+    margin: 0;
+}
+
+.woocommerce-page table.cart td.actions,
+.woocommerce-page #content table.cart td.actions {
+    text-align: left;
+    border:0;
+    padding-left: 6px !important;
+}
+
+.woocommerce-page table.cart td.actions .button.alt,
+.woocommerce-page #content table.cart td.actions .button.alt {
+    float: left;
+    margin-top: 10px;
+}
+
+.woocommerce-page table.cart td.actions div,
+.woocommerce-page #content table.cart td.actions div,
+.woocommerce-page table.cart td.actions input,
+.woocommerce-page #content table.cart td.actions input {
+    margin-bottom: 10px;
+}
+
+.woocommerce-page .cart-collaterals .cart_totals {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+.woocommerce-page .cart-collaterals .cart_totals th,
+.woocommerce-page .cart-collaterals .cart_totals td {
+    border:0 !important;
+}
+
+.woocommerce-page .cart-collaterals .cart_totals table tr.cart-subtotal td,
+.woocommerce-page .cart-collaterals .cart_totals table tr.shipping td,
+.woocommerce-page .cart-collaterals .cart_totals table tr.total td {
+    padding-left: 6px !important;
+}
+
+.woocommerce-page table.shop_table tr.cart-subtotal td,
+.woocommerce-page table.shop_table tr.shipping td,
+.woocommerce-page table.shop_table tr.total td,
+.woocommerce-page table.shop_table.order_details tfoot th,
+.woocommerce-page table.shop_table.order_details tfoot td {
+    padding-left: 6px !important;
+    border:0 !important;
+}
+
+.woocommerce-page table.shop_table tbody {
+    padding-top: 10px;
+}
+
+.woocommerce .col2-set .col-1,
+.woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2,
+.woocommerce-page .col2-set .col-2,
+.woocommerce form .form-row-first,
+.woocommerce form .form-row-last,
+.woocommerce-page form .form-row-first,
+.woocommerce-page form .form-row-last {
+    float: none;
+    width: 100%;
+}
+
+.woocommerce .order_details ul,
+.woocommerce-page .order_details ul,
+.woocommerce .order_details,
+.woocommerce-page .order_details {
+    padding:0;
+}
+
+.woocommerce .order_details li,
+.woocommerce-page .order_details li {
+    clear: left;
+    margin-bottom: 10px;
+    border:0;
+}
+
+/* make buttons full width, text wide anyway, improves effectiveness */
+#content table.cart td.actions .button,
+.woocommerce #content table.cart td.actions .input-text,
+.woocommerce #content table.cart td.actions input,
+.woocommerce table.cart td.actions .button,
+.woocommerce table.cart td.actions .input-text,
+.woocommerce table.cart td.actions input,
+.woocommerce-page #content table.cart td.actions .button,
+.woocommerce-page #content table.cart td.actions .input-text,
+.woocommerce-page #content table.cart td.actions input,
+.woocommerce-page table.cart td.actions .button,
+.woocommerce-page table.cart td.actions .input-text,
+.woocommerce-page table.cart td.actions input {
+    width: 100%;
+}
+
+/* keep coupon at 50% */
+#content table.cart td.actions .coupon .button,
+.woocommerce #content table.cart td.actions .coupon .input-text,
+.woocommerce #content table.cart td.actions .coupon input,
+.woocommerce table.cart td.actions .coupon .button,
+.woocommerce table.cart td.actions .coupon .input-text,
+.woocommerce table.cart td.actions .coupon input,
+.woocommerce-page #content table.cart td.actions .coupon .button,
+.woocommerce-page #content table.cart td.actions .coupon .input-text,
+.woocommerce-page #content table.cart td.actions .coupon input,
+.woocommerce-page table.cart td.actions .coupon .button,
+.woocommerce-page table.cart td.actions .coupon .input-text,
+.woocommerce-page table.cart td.actions .coupon input {
+    width: 48%;
+}
+
+/* clean up how coupon inputs display */
+#content table.cart td.actions .coupon,
+.woocommerce table.cart td.actions .coupon,
+.woocommerce-page #content table.cart td.actions .coupon,
+.woocommerce-page table.cart td.actions .coupon {
+    margin-top: 1.5em;
+}
+
+#content table.cart td.actions .coupon .input-text,
+.woocommerce table.cart td.actions .coupon .input-text,
+.woocommerce-page #content table.cart td.actions .coupon .input-text,
+.woocommerce-page table.cart td.actions .coupon .input-text {
+    margin-bottom: 1em;
+}
+
+/* remove cross sells, they interfere with flow between cart and cart totals + shipping calculator */
+.woocommerce .cart-collaterals .cross-sells,
+.woocommerce-page .cart-collaterals .cross-sells {
+    display: none;
+}
+
+}
+
+/* END Make the cart table responsive */
